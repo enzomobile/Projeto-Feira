@@ -1,0 +1,26 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternar Tema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="toggle-theme">Modo escuro</button>
+    <script src="script.js"></script>
+    <div class="container">
+        <button class="btn" onclick="toggleMode('acromatopsia')">Modo acromatopsia</button>
+        <button class="btn" onclick="toggleMode('protanopia')">Modo Protanopia</button>
+        <button class="btn" onclick="toggleMode('deuteranopia')">Modo Deuteranopia</button>
+        <button class="btn" onclick="toggleMode('tritanopia')">Modo Tritanopia</button>
+        <h1>Bem-vindo ao site acessível</h1>
+        <p>Este é um exemplo de site com botões para alternar para esquemas de cores acessíveis para diferentes tipos de daltonismo.</p>
+    </div>
+
+    <script>
+        function toggleMode(mode) {
+            document.body.className = mode;
+        }
+    </script>
+</body>
+</html>
