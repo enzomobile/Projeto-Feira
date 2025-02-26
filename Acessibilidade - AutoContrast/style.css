@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+    width: 350px;
+}
+
+.texto {
+    font-size: 16px;
+    color: black;
+    transition: color 0.3s;
+}
+
+.alto-contraste {
+    background-color: black;
+    color: white;
+}
